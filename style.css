@@ -1,0 +1,22 @@
+body {
+
+    background-color: blueviolet; 
+}
+
+h1 {
+    
+    text-align: center; 
+    color: aliceblue; 
+
+}
+
+h4 {
+    
+    text-align: center; 
+    color: aliceblue; 
+
+}
+table, td{
+    border: 1px solid;
+    
+}
