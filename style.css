@@ -1,22 +1,67 @@
-body {
-
-    background-color: blueviolet; 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
-h1 {
-    
-    text-align: center; 
-    color: aliceblue; 
-
+div.wrapper{
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-h4 {
-    
-    text-align: center; 
-    color: aliceblue; 
-
+.card {
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 15px;
 }
-table, td{
-    border: 1px solid;
-    
+.pink {
+    background-color: blueviolet;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.black {
+    background-color: black;
+}
+.sim-card {
+    width: 50px;
+    padding-top: 35px;
+    margin-left: -5px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.visa {
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.card-num {
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: -5px;
+}
+.card-name {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: monospace;
+}
+.valid {
+    font-family: Tahoma, sans-serif;
+    font-size: 9px;
+}
+.date {
+    font-family: Tahoma, sans-serif;
 }
